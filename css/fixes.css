@@ -1,0 +1,30 @@
+
+
+/*
+ * taken from MaxCycle (Fullscreen Slideshow for use with jQuery Cycle Plugin)
+ * http://www.aaronvanderzwan.com/maxcycle/
+ */
+div.mc-image {
+    /*NOTE: Mozilla flickers when fading and using 'all', so we have to be specific with what property we want to transition:
+         If you are using fading transitions, use 'opacity: */
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+
+    /*If you are using horizontal slide transitions, use the following CSS:
+    -webkit-transition: left 1s ease-in-out;
+    -moz-transition: left 1s ease-in-out;
+    -o-transition: left 1s ease-in-out;
+    transition: left 1s ease-in-out;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position:center center;
+    background-repeat:no-repeat;
+    height:100%;
+    overflow:hidden;
+    width:100%;
+}

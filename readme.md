@@ -411,7 +411,7 @@ vcgencmd display_power 0
 vcgencmd display_power 1
 ``` 
 
-### projects used
+### Projects used
 
 - jquery
 - jquery cycle
